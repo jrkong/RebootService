@@ -2482,7 +2482,7 @@ namespace RebootService
                 List<string> lSet = new List<string>();
                 lSet.Add(strReturn);
 
-                csIn.setTemp(new RebootService.Chunk(lSet));
+                csIn.setTemp(new Chunk(lSet));
                 return false;
             }
             else
